@@ -52,7 +52,34 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis laborum quasi praesentium eligendi vitae. Odit illo molestias iste fugiat ea inventore repellendus, rerum quibusdam mollitia quis quia possimus hic earum!</p>
 				</div>
 				<div class="col-6">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum libero recusandae natus cumque quis a perferendis consequuntur sint itaque asperiores eligendi, harum repellendus ex odio, nam quos repudiandae iste enim.</p>
+					<div class="contact-form-1">
+						<form name="contact-us" method="POST" netlify>
+							<ul class="form-style-1">
+								<li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
+								<li>
+									<label for="email">Email <span class="required">*</span>
+										<input type="email" id="mail" name="field3" class="field-long" />
+										<span class="error"></span>
+									</label>
+								</li>
+								<li>
+									<label>Subject</label>
+									<select name="field4" class="field-select">
+										<option value="Technical">Technical</option>
+										<option value="Partnership">Partnership</option>
+										<option value="General Question">General</option>
+									</select>
+								</li>
+								<li>
+									<label>Your Message <span class="required">*</span></label>
+									<textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
+								</li>
+								<li>
+									<input type="submit" value="Submit" />
+								</li>
+							</ul>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
