@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Document</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="styles.css">	
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 </head>
@@ -15,10 +16,12 @@
 		<div class="main-nav">
 			<div class="logo-nav">
 				<div class="logo">
-				<img src="penguin_icon.png" alt="penguin icon" height="75">
-				<p class="brand-title">Digital Penguin</p>
+					<img src="penguin_icon.png" alt="penguin icon" height="75">		
+				</div>				
 			</div>
-		</div>
+			<div class="brand">
+				<p>Digital Penguin</p>
+			</div>
 			<nav class="mobile-nav">
 				<div id="nav-icon">
 					<span></span>
@@ -30,29 +33,45 @@
 				</div>
 				<div class="nav-links">
 					<ul>
-						<li class="menu-item">Index</li>
-						<li class="menu-item">Index</li>
-						<li class="menu-item">Index</li>
+						<li class="menu-item"><a href="#">Digital Marketing</a></li>
+						
+						<li class="menu-item"><a href="#">Web Design</a></li>
 					</ul>
 				</div>
 			</nav>
 		</div>
 	</div>
 	<!-- End of Navigation -->
-	<div class="fullscreen-background"></div>
-	<section id="about">
-		<div class="about-img col-4 clear"></div>
-		<div class="about-copy col-8 clear">
+	<div class="fullscreen-background">
+		<div class="bg-overlay"></div>
+	</div>
+	<section id="about" class="clear">
+		<div class="container">
+			<div class="row">
+				<div class="about-img col-md-4">
+			<div class="card">
+				<img src="https://placeimg.com/350/350/any" alt="">
+			</div>
+			
+		</div>
+		<div class="about-copy col-md-8">
 			<div class="entry-content">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laudantium ipsam velit expedita nihil, rerum officiis voluptates eius similique commodi ratione facilis laboriosam esse accusantium voluptatem temporibus rem voluptate, fugiat.</p>
 			</div>
 		</div>
+			</div>
+		</div>
+
+		
 	</section>
-	<section id="contact" class="col-m-12 clear">
+	<section id="contact" class="clear">
+		<div class="container">
 		<div class="row">
-			<div class="inner-column">
-				<div class="col-6">
+			
+				<div class="col-md-6">
 					<div class="contact-info">
+						<h3 class="contact-above">Lorem ipsum dolor.</h3>
+						<p class="contact-above">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, possimus.</p>
 
 						<div class="fp-contact">
 							<span><br>
@@ -70,7 +89,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6">
+				<div class="col-md-6">
 					<div class="contact-form-1">
 						<form name="contact-us" method="POST" netlify>
 							<ul class="form-style-1">
@@ -99,11 +118,15 @@
 							</ul>
 						</form>
 					</div>
-				</div>
+				
 			</div>
 		</div>
+	</div>
 	</section>
+	<footer id="main-footer"></footer>
 </body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="main.js"></script>
 </html>
